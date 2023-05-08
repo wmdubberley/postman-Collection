@@ -42,7 +42,27 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "152.70.159.52:8000/runJob/100",
+				"url": {
+					"raw": "152.70.159.52:8000/runJob/100?test=false",
+					"host": [
+						"152",
+						"70",
+						"159",
+						"52"
+					],
+					"port": "8000",
+					"path": [
+						"runJob",
+						"100"
+					],
+					"query": [
+						{
+							"key": "test",
+							"value": "false",
+							"type": "text"
+						}
+					]
+				},
 				"description": "runjob/:id id refers to the job number you wish to start"
 			},
 			"response": []
