@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "get Job Status",
-			"_postman_id": "bb384be9-85cb-4803-aa53-59a532cd22b7",
+			"id": "bb384be9-85cb-4803-aa53-59a532cd22b7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -20,8 +20,8 @@
 			"response": []
 		},
 		{
-			"name": "exec import",
-			"_postman_id": "1c3d64aa-1592-4dee-9a38-c7a9851c88dd",
+			"name": "exec rj job",
+			"id": "d3468cab-509a-488f-ba0e-53767577e171",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -34,15 +34,15 @@
 			"response": []
 		},
 		{
-			"name": "exec rj job",
-			"_postman_id": "d3468cab-509a-488f-ba0e-53767577e171",
+			"name": "exec import",
+			"id": "1c3d64aa-1592-4dee-9a38-c7a9851c88dd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "152.70.159.52:8000/runJob/1",
+				"url": "152.70.159.52:8000/runJob/100",
 				"description": "runjob/:id id refers to the job number you wish to start"
 			},
 			"response": []
