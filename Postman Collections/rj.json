@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "get Job Status",
-			"_postman_id": "9878184d-4935-4f90-a9bc-6ee46b5bc7a1",
+			"id": "9878184d-4935-4f90-a9bc-6ee46b5bc7a1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -21,7 +21,7 @@
 		},
 		{
 			"name": "exec rj job",
-			"_postman_id": "ac4c0d26-804c-4901-a587-f3ef1ac4cd7e",
+			"id": "ac4c0d26-804c-4901-a587-f3ef1ac4cd7e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -35,15 +35,19 @@
 		},
 		{
 			"name": "exec import",
-			"_postman_id": "8cfe9ee0-0c0b-423d-a8c2-b7f0cb779b39",
+			"id": "8cfe9ee0-0c0b-423d-a8c2-b7f0cb779b39",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "sdfg"
+				},
 				"url": {
-					"raw": "152.70.159.52:8000/runJob/100?test=false",
+					"raw": "152.70.159.52:8000/runJob/100?test=true",
 					"host": [
 						"152",
 						"70",
@@ -58,8 +62,8 @@
 					"query": [
 						{
 							"key": "test",
-							"value": "false",
-							"type": "text"
+							"value": "true",
+							"description": "test bs"
 						}
 					]
 				},
