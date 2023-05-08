@@ -1,13 +1,13 @@
 {
 	"info": {
-		"_postman_id": "43df4d26-895f-4455-b6e5-059c9d035a58",
+		"_postman_id": "8c09bc43-5b7c-42dd-90d0-005cc84c8de8",
 		"name": "RelationalJunction",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "get Job Status",
-			"id": "bb384be9-85cb-4803-aa53-59a532cd22b7",
+			"_postman_id": "9878184d-4935-4f90-a9bc-6ee46b5bc7a1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -21,7 +21,7 @@
 		},
 		{
 			"name": "exec rj job",
-			"id": "d3468cab-509a-488f-ba0e-53767577e171",
+			"_postman_id": "ac4c0d26-804c-4901-a587-f3ef1ac4cd7e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -35,7 +35,7 @@
 		},
 		{
 			"name": "exec import",
-			"id": "1c3d64aa-1592-4dee-9a38-c7a9851c88dd",
+			"_postman_id": "8cfe9ee0-0c0b-423d-a8c2-b7f0cb779b39",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
